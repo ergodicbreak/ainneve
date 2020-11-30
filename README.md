@@ -3,9 +3,7 @@
 |--------|---------|
 | [![Master build Status](https://travis-ci.org/evennia/ainneve.svg?branch=master)](https://travis-ci.org/evennia/ainneve) | [![Develop build Status](https://travis-ci.org/evennia/ainneve.svg?branch=develop)](https://travis-ci.org/evennia/ainneve) |
 
-# Codebase is undergoing major refactoring - please join #ainneve on Freenode if you wish to discuss ideas for Ainneve's future direction.
-
-Welcome! The [Evennia](http://www.evennia.com/) community has created Ainneve for you to use as a base to learn from and build off of.  Ainneve currently is an early work in progress. 
+This branch is a reworking of the original Ainneve project. The goal is to follow closely the new 1.0 tutorial (https://www.evennia.com/docs/1.0-dev/Howto/Howto-Overview.html#the-starting-tutorial), creating a game that a tutorial reader can reference as a more fully developed example. See https://github.com/evennia/ainneve/issues/116 for more background. 
 
 The main configuration file is found in
 `server/conf/settings.py` (but you don't need to change it to get
@@ -26,13 +24,9 @@ http://localhost:8000.
 
 # Getting started
 
-We recommended you look up Evennia's extensive
-documentation found here: https://github.com/evennia/evennia/wiki.
+https://www.evennia.com/docs/latest/index.html
 
-Plenty of beginner's tutorials can be found here:
-http://github.com/evennia/evennia/wiki/Tutorials.
-
-To learn about Ainneve's game systems and world setting, check out [our wiki](https://github.com/evennia/ainneve/wiki).
+https://www.evennia.com/docs/latest/Tutorials.html
 
 # Contributing
 
@@ -47,4 +41,3 @@ Please submit pull requests as feature branches rather than from your master -- 
 
 Ainneve uses the BSD license, the [same as Evennia](https://github.com/evennia/evennia/wiki/Licensing).
 
-Our game rules use [Open Adventure](http://www.geekguild.com/openadventure), copyright 2014 Kyle Mecklem and released under the Creative Commons Attribution [CC-by-SA license](https://creativecommons.org/licenses/by-sa/4.0/).
